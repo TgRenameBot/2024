@@ -92,8 +92,8 @@ StartTime  = time.time()
 BOT_OWNER = int(os.environ.get("BOT_OWNER", "1248974748"))
 #AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
  
-DATABASE = os.environ.get("DATABASE", "mongodb+srv://Tgrename:tgrename@cluster0.1daws.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-SESSION_NAME = os.environ.get('SESSION_NAME', "TG-Renamebot")
+DATABASE = os.environ.get("DATABASE", "mongodb+srv://4kscedt:TlHZycXg4HvyqY5H@cluster0.hx2se5a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+SESSION_NAME = os.environ.get('SESSION_NAME', "TG-Renamebot33")
 db = Database(DATABASE, SESSION_NAME)
 broadcast_ids = {}
 
